@@ -14,6 +14,19 @@
 		4D295F321A7F2BDA009CAE30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D295F311A7F2BDA009CAE30 /* Images.xcassets */; };
 		4D295F351A7F2BDA009CAE30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D295F331A7F2BDA009CAE30 /* LaunchScreen.xib */; };
 		4D295F411A7F2BDA009CAE30 /* IOSDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D295F401A7F2BDA009CAE30 /* IOSDemoTests.m */; };
+		4D295F4C1A7F2D2D009CAE30 /* 本科-成绩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D295F4B1A7F2D2D009CAE30 /* 本科-成绩.jpg */; };
+		4D99F9E41A7F2DC5001BD1C6 /* 电影.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D99F9E31A7F2DC5001BD1C6 /* 电影.png */; };
+		4D99F9E61A7F3F08001BD1C6 /* sing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D99F9E51A7F3F08001BD1C6 /* sing@2x.png */; };
+		4D99F9EC1A7F5157001BD1C6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99F9E71A7F50CF001BD1C6 /* ImageIO.framework */; };
+		4D99FB761A7F67E8001BD1C6 /* TestCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D99FB751A7F67E8001BD1C6 /* TestCollectionViewController.m */; };
+		4D99FB7A1A7F6C8B001BD1C6 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D99FB781A7F6C8B001BD1C6 /* CollectionCell.m */; };
+		4D99FB7B1A7F6C8B001BD1C6 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D99FB791A7F6C8B001BD1C6 /* CollectionCell.xib */; };
+		4D99FC101A7FB98B001BD1C6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99FC0F1A7FB98B001BD1C6 /* MessageUI.framework */; };
+		4D99FC121A7FB998001BD1C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99FC111A7FB998001BD1C6 /* QuartzCore.framework */; };
+		4D99FC141A7FB9AE001BD1C6 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99FC131A7FB9AE001BD1C6 /* AssetsLibrary.framework */; };
+		4D99FC1B1A7FBC6B001BD1C6 /* libMWPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99FC1A1A7FBC33001BD1C6 /* libMWPhotoBrowser.a */; };
+		4D99FC1D1A7FBC87001BD1C6 /* MWPhotoBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D99FC1C1A7FBC87001BD1C6 /* MWPhotoBrowser.bundle */; };
+		4D99FC231A7FC73C001BD1C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D99FC221A7FC73C001BD1C6 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +36,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4D295F201A7F2BD9009CAE30;
 			remoteInfo = IOSDemo;
+		};
+		4D99FC191A7FBC33001BD1C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D99FC151A7FBC33001BD1C6 /* MWPhotoBrowser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4C6F96C414AF704100F8389A;
+			remoteInfo = MWPhotoBrowser;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,6 +60,21 @@
 		4D295F3A1A7F2BDA009CAE30 /* IOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D295F3F1A7F2BDA009CAE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D295F401A7F2BDA009CAE30 /* IOSDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSDemoTests.m; sourceTree = "<group>"; };
+		4D295F4B1A7F2D2D009CAE30 /* 本科-成绩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "本科-成绩.jpg"; sourceTree = "<group>"; };
+		4D99F9E31A7F2DC5001BD1C6 /* 电影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "电影.png"; sourceTree = "<group>"; };
+		4D99F9E51A7F3F08001BD1C6 /* sing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sing@2x.png"; sourceTree = "<group>"; };
+		4D99F9E71A7F50CF001BD1C6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4D99FB741A7F67E8001BD1C6 /* TestCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewController.h; sourceTree = "<group>"; };
+		4D99FB751A7F67E8001BD1C6 /* TestCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewController.m; sourceTree = "<group>"; };
+		4D99FB771A7F6C8B001BD1C6 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		4D99FB781A7F6C8B001BD1C6 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		4D99FB791A7F6C8B001BD1C6 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		4D99FC0F1A7FB98B001BD1C6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4D99FC111A7FB998001BD1C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D99FC131A7FB9AE001BD1C6 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4D99FC151A7FBC33001BD1C6 /* MWPhotoBrowser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MWPhotoBrowser.xcodeproj; path = "../../../Downloads/mwaterfall-MWPhotoBrowser-d68f9cd/MWPhotoBrowser/MWPhotoBrowser.xcodeproj"; sourceTree = "<group>"; };
+		4D99FC1C1A7FBC87001BD1C6 /* MWPhotoBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MWPhotoBrowser.bundle; path = "../../../Downloads/mwaterfall-MWPhotoBrowser-d68f9cd/MWPhotoBrowser/MWPhotoBrowser.bundle"; sourceTree = "<group>"; };
+		4D99FC221A7FC73C001BD1C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D99FC231A7FC73C001BD1C6 /* MapKit.framework in Frameworks */,
+				4D99FC1B1A7FBC6B001BD1C6 /* libMWPhotoBrowser.a in Frameworks */,
+				4D99FC141A7FB9AE001BD1C6 /* AssetsLibrary.framework in Frameworks */,
+				4D99FC121A7FB998001BD1C6 /* QuartzCore.framework in Frameworks */,
+				4D99FC101A7FB98B001BD1C6 /* MessageUI.framework in Frameworks */,
+				4D99F9EC1A7F5157001BD1C6 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,13 @@
 		4D295F181A7F2BD9009CAE30 = {
 			isa = PBXGroup;
 			children = (
+				4D99FC221A7FC73C001BD1C6 /* MapKit.framework */,
+				4D99FC1C1A7FBC87001BD1C6 /* MWPhotoBrowser.bundle */,
+				4D99FC151A7FBC33001BD1C6 /* MWPhotoBrowser.xcodeproj */,
+				4D99FC131A7FB9AE001BD1C6 /* AssetsLibrary.framework */,
+				4D99FC111A7FB998001BD1C6 /* QuartzCore.framework */,
+				4D99FC0F1A7FB98B001BD1C6 /* MessageUI.framework */,
+				4D99F9E91A7F50DE001BD1C6 /* Framework */,
 				4D295F231A7F2BDA009CAE30 /* IOSDemo */,
 				4D295F3D1A7F2BDA009CAE30 /* IOSDemoTests */,
 				4D295F221A7F2BDA009CAE30 /* Products */,
@@ -81,14 +129,20 @@
 		4D295F231A7F2BDA009CAE30 /* IOSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4D295F4A1A7F2D07009CAE30 /* Res */,
 				4D295F281A7F2BDA009CAE30 /* AppDelegate.h */,
 				4D295F291A7F2BDA009CAE30 /* AppDelegate.m */,
 				4D295F2B1A7F2BDA009CAE30 /* ViewController.h */,
 				4D295F2C1A7F2BDA009CAE30 /* ViewController.m */,
 				4D295F2E1A7F2BDA009CAE30 /* Main.storyboard */,
+				4D99FB771A7F6C8B001BD1C6 /* CollectionCell.h */,
+				4D99FB781A7F6C8B001BD1C6 /* CollectionCell.m */,
+				4D99FB791A7F6C8B001BD1C6 /* CollectionCell.xib */,
 				4D295F311A7F2BDA009CAE30 /* Images.xcassets */,
 				4D295F331A7F2BDA009CAE30 /* LaunchScreen.xib */,
 				4D295F241A7F2BDA009CAE30 /* Supporting Files */,
+				4D99FB741A7F67E8001BD1C6 /* TestCollectionViewController.h */,
+				4D99FB751A7F67E8001BD1C6 /* TestCollectionViewController.m */,
 			);
 			path = IOSDemo;
 			sourceTree = "<group>";
@@ -117,6 +171,32 @@
 				4D295F3F1A7F2BDA009CAE30 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D295F4A1A7F2D07009CAE30 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				4D99F9E51A7F3F08001BD1C6 /* sing@2x.png */,
+				4D99F9E31A7F2DC5001BD1C6 /* 电影.png */,
+				4D295F4B1A7F2D2D009CAE30 /* 本科-成绩.jpg */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+		4D99F9E91A7F50DE001BD1C6 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4D99F9E71A7F50CF001BD1C6 /* ImageIO.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		4D99FC161A7FBC33001BD1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D99FC1A1A7FBC33001BD1C6 /* libMWPhotoBrowser.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +266,12 @@
 			mainGroup = 4D295F181A7F2BD9009CAE30;
 			productRefGroup = 4D295F221A7F2BDA009CAE30 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4D99FC161A7FBC33001BD1C6 /* Products */;
+					ProjectRef = 4D99FC151A7FBC33001BD1C6 /* MWPhotoBrowser.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4D295F201A7F2BD9009CAE30 /* IOSDemo */,
@@ -194,14 +280,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		4D99FC1A1A7FBC33001BD1C6 /* libMWPhotoBrowser.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMWPhotoBrowser.a;
+			remoteRef = 4D99FC191A7FBC33001BD1C6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		4D295F1F1A7F2BD9009CAE30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D99FC1D1A7FBC87001BD1C6 /* MWPhotoBrowser.bundle in Resources */,
+				4D99F9E41A7F2DC5001BD1C6 /* 电影.png in Resources */,
+				4D99F9E61A7F3F08001BD1C6 /* sing@2x.png in Resources */,
 				4D295F301A7F2BDA009CAE30 /* Main.storyboard in Resources */,
 				4D295F351A7F2BDA009CAE30 /* LaunchScreen.xib in Resources */,
 				4D295F321A7F2BDA009CAE30 /* Images.xcassets in Resources */,
+				4D99FB7B1A7F6C8B001BD1C6 /* CollectionCell.xib in Resources */,
+				4D295F4C1A7F2D2D009CAE30 /* 本科-成绩.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +322,8 @@
 			files = (
 				4D295F2D1A7F2BDA009CAE30 /* ViewController.m in Sources */,
 				4D295F2A1A7F2BDA009CAE30 /* AppDelegate.m in Sources */,
+				4D99FB761A7F67E8001BD1C6 /* TestCollectionViewController.m in Sources */,
+				4D99FB7A1A7F6C8B001BD1C6 /* CollectionCell.m in Sources */,
 				4D295F271A7F2BDA009CAE30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,20 +447,36 @@
 		4D295F451A7F2BDA009CAE30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = IOSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/mark/Downloads/mwaterfall-MWPhotoBrowser-d68f9cd/**";
 			};
 			name = Debug;
 		};
 		4D295F461A7F2BDA009CAE30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = IOSDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/mark/Downloads/mwaterfall-MWPhotoBrowser-d68f9cd/**";
 			};
 			name = Release;
 		};
@@ -414,6 +533,7 @@
 				4D295F461A7F2BDA009CAE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D295F471A7F2BDA009CAE30 /* Build configuration list for PBXNativeTarget "IOSDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +542,7 @@
 				4D295F491A7F2BDA009CAE30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
